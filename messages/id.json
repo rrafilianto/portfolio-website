@@ -4,6 +4,8 @@
     "about": "Tentang",
     "experience": "Pengalaman",
     "projects": "Proyek",
+    "skills": "Keahlian",
+    "education": "Pendidikan",
     "contact": "Kontak"
   },
   "hero": {
@@ -129,13 +131,13 @@
     }
   },
   "skills": {
-    "title": "Keahlian",
-    "education": {
-      "title": "Pendidikan",
-      "university": "Universitas Telkom",
-      "degree": "Diploma Teknik Komputer • 2013 - 2016",
-      "badge": "Fail2Ban Notification System using Telegram"
-    }
+    "title": "Keahlian"
+  },
+  "education": {
+    "title": "Pendidikan",
+    "university": "Universitas Telkom",
+    "degree": "Diploma Teknik Komputer • 2013 - 2016",
+    "badge": "Fail2Ban Notification System using Telegram"
   },
   "contact": {
     "title": "Kontak",

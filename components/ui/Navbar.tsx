@@ -18,15 +18,50 @@ export default function Navbar() {
     { label: t("about"), href: "#about" },
     { label: t("experience"), href: "#experience" },
     { label: t("projects"), href: "#projects" },
+    { label: t("skills"), href: "#skills" },
+    { label: t("education"), href: "#education" },
     { label: t("contact"), href: "#contact" },
   ];
 
   useEffect(() => {
+    // 1. Scrolled State & Top Detection
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
+      
+      // Explicitly set Home if at the very top
+      if (window.scrollY < 100) {
+        setActiveLink("#");
+      }
     };
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+
+    // 2. Intersection Observer for Scroll Spy
+    const sectionIds = ["about", "experience", "projects", "skills", "education", "contact"];
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setActiveLink(`#${entry.target.id}`);
+          }
+        });
+      },
+      {
+        // Trigger when the section hits the middle of the viewport
+        rootMargin: "-40% 0px -60% 0px"
+      }
+    );
+
+    sectionIds.forEach((id) => {
+      const element = document.getElementById(id);
+      if (element) {
+        observer.observe(element);
+      }
+    });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      observer.disconnect();
+    };
   }, []);
 
   const handleLinkClick = (href: string) => {

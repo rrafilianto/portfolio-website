@@ -4,6 +4,8 @@
     "about": "About",
     "experience": "Experience",
     "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
     "contact": "Contact"
   },
   "hero": {
@@ -129,13 +131,13 @@
     }
   },
   "skills": {
-    "title": "Skills",
-    "education": {
-      "title": "Education",
-      "university": "Telkom University",
-      "degree": "Diploma in Computer Engineering • 2013 - 2016",
-      "badge": "Fail2Ban Notification System using Telegram"
-    }
+    "title": "Skills"
+  },
+  "education": {
+    "title": "Education",
+    "university": "Telkom University",
+    "degree": "Diploma in Computer Engineering • 2013 - 2016",
+    "badge": "Fail2Ban Notification System using Telegram"
   },
   "contact": {
     "title": "Contact",
