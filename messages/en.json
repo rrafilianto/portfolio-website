@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "Senior Frontend Engineer",
+    "viewPortfolio": "View Portfolio",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "label": "Discovery",
+    "text": "Frontend Engineer with <highlight>8+ years of experience</highlight> building scalable web applications using React, TypeScript, and modern frameworks such as Next.js and Angular. Experienced in developing products across fintech, logistics, and e-commerce, including SaaS platforms, internal dashboards, and full-featured e-commerce systems. Passionate about building high-performance user interfaces and delivering maintainable, scalable frontend architecture."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "items": {
+      "1": {
+        "title": "Senior Frontend Engineer",
+        "company": "PT SiCepat Express Indonesia",
+        "period": "Nov 2020 – July 2025",
+        "description": [
+          "Developed and maintained internal logistics web applications using React and TypeScript to support operational workflows.",
+          "Built scalable and reusable UI components for internal operational systems.",
+          "Improved application reliability by implementing unit testing and enforcing best practices for frontend code quality.",
+          "Collaborated with backend engineers, product managers, and QA engineers in an agile environment to deliver new features and system improvements.",
+          "Conducted code reviews and maintained coding standards across the frontend team.",
+          "Participated in technical interviews for frontend engineer candidates."
+        ]
+      },
+      "2": {
+        "title": "Frontend Engineer",
+        "company": "PT Bank Amar Indonesia Tbk (Tunaiku)",
+        "period": "Nov 2018 – Oct 2020",
+        "description": [
+          "Developed and maintained the Tunaiku web application, a fintech platform providing online collateral-free loans.",
+          "Implemented new features and resolved production issues using the Angular framework.",
+          "Built reusable and maintainable frontend components to improve development efficiency.",
+          "Collaborated with backend engineers, product managers, and QA engineers in an agile development environment.",
+          "Ensured application stability by writing clean and well-tested code.",
+          "Mentored junior frontend developers and contributed to knowledge sharing within the team."
+        ]
+      },
+      "3": {
+        "title": "Frontend Engineer",
+        "company": "PT Astra Graphia IT (AGIT)",
+        "period": "Sep 2017 – Nov 2018",
+        "description": [
+          "Contributed to the development of Mytra.id, an on-demand service platform for booking professional services.",
+          "Built responsive user interfaces for services including MyGuard (security personnel) and MyDriver (personal driver).",
+          "Developed and maintained frontend features using Backbone.js and jQuery.",
+          "Ensured a consistent and user-friendly experience across multiple devices and screen sizes.",
+          "Worked closely with backend engineers and product teams to implement new product features."
+        ]
+      },
+      "4": {
+        "title": "Helpdesk Provisioning",
+        "company": "PT Telkom Akses",
+        "period": "Dec 2016 – Sep 2017",
+        "description": [
+          "Monitored and supported new IndiHome installation orders as part of the PCC operations team.",
+          "Troubleshot network configuration issues related to IP, Port, and VLAN.",
+          "Generated daily operational reports to support service delivery monitoring.",
+          "Developed internal web applications using PHP and MySQL to streamline the monitoring of installation orders.",
+          "Built tools for tracking installation progress, managing reports, and updating order statuses."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Project Experience",
+    "subtitle": "",
+    "launchProject": "Launch Project",
+    "items": {
+      "1": {
+        "title": "Sabina by Selly",
+        "description": [
+          "Developed a full-stack e-commerce web platform for a Muslim fashion brand.",
+          "Built customer-facing features including product catalog, shopping cart, order management, and user account pages.",
+          "Integrated Midtrans payment gateway to enable secure online transactions.",
+          "Integrated Biteship API to automate shipping cost calculation and delivery management.",
+          "Designed and implemented an admin dashboard for managing products, orders, promotions, and customer data.",
+          "Developed responsive and reusable UI components using Next.js."
+        ]
+      },
+      "2": {
+        "title": "Medina Invitation",
+        "description": [
+          "Built a web platform enabling couples to create and share digital wedding invitations.",
+          "Developed responsive invitation pages displaying event details, venue information, and schedules.",
+          "Implemented RSVP management features for tracking guest attendance and responses.",
+          "Developed backend APIs using Express.js for managing invitation content and guest data.",
+          "Designed and managed relational database schemas using PostgreSQL."
+        ]
+      },
+      "3": {
+        "title": "Vote",
+        "description": [
+          "Developed a web application to record and monitor election results in real time.",
+          "Built responsive user interfaces using Next.js.",
+          "Implemented result submission features allowing polling station witnesses to input election data.",
+          "Developed REST APIs using Express.js to handle result submission and data retrieval.",
+          "Designed and managed relational data storage using PostgreSQL.",
+          "Built monitoring dashboards enabling political parties and candidates to track election results across polling stations."
+        ]
+      },
+      "4": {
+        "title": "DriverDay.id",
+        "description": [
+          "Developed a company profile website for car rental and driver services.",
+          "Built responsive user interfaces using Next.js.",
+          "Implemented SEO optimization using Next.js SSR and static generation.",
+          "Created article pages to improve organic search visibility and increase website traffic.",
+          "Optimized page performance and site structure to support better search engine indexing."
+        ]
+      },
+      "5": {
+        "title": "Virtuathlon",
+        "description": [
+          "Contributed to the development of a mobile application for participating in virtual sports challenges.",
+          "Built responsive mobile user interfaces using React Native.",
+          "Implemented features to support activity tracking and challenge participation.",
+          "Collaborated with the development team to integrate mobile interfaces with backend services."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "education": {
+      "title": "Education",
+      "university": "Telkom University",
+      "degree": "Diploma in Computer Engineering • 2013 - 2016",
+      "badge": "Fail2Ban Notification System using Telegram"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's discuss how we can build the next paradigm of digital experiences together. Reach out via my primary channels.",
+    "emailMe": "Email",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

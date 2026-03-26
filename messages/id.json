@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "experience": "Pengalaman",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "subtitle": "Senior Frontend Engineer",
+    "viewPortfolio": "Lihat Portofolio",
+    "contactMe": "Hubungi Saya"
+  },
+  "about": {
+    "label": "Discovery",
+    "text": "Frontend Engineer dengan <highlight>pengalaman 8+ tahun</highlight> membangun aplikasi web yang scalable menggunakan React, TypeScript, dan framework modern seperti Next.js dan Angular. Berpengalaman mengembangkan produk di bidang fintech, logistik, dan e-commerce, termasuk platform SaaS, dashboard internal, dan sistem e-commerce lengkap. Bersemangat membangun antarmuka pengguna berkinerja tinggi dan menghadirkan arsitektur frontend yang maintainable dan scalable."
+  },
+  "experience": {
+    "title": "Pengalaman Kerja",
+    "items": {
+      "1": {
+        "title": "Senior Frontend Engineer",
+        "company": "PT SiCepat Express Indonesia",
+        "period": "Nov 2020 – Jul 2025",
+        "description": [
+          "Mengembangkan dan memelihara aplikasi web logistik internal menggunakan React dan TypeScript untuk mendukung alur kerja operasional.",
+          "Membangun komponen UI yang scalable dan reusable untuk sistem operasional internal.",
+          "Meningkatkan keandalan aplikasi dengan mengimplementasikan unit testing dan menerapkan praktik terbaik untuk kualitas kode frontend.",
+          "Berkolaborasi dengan engineer backend, manajer produk, dan QA engineer dalam lingkungan agile untuk menghadirkan fitur baru dan peningkatan sistem.",
+          "Melakukan code review dan menjaga standar pengkodean di seluruh tim frontend.",
+          "Berpartisipasi dalam wawancara teknis untuk kandidat frontend engineer."
+        ]
+      },
+      "2": {
+        "title": "Frontend Engineer",
+        "company": "PT Bank Amar Indonesia Tbk (Tunaiku)",
+        "period": "Nov 2018 – Okt 2020",
+        "description": [
+          "Mengembangkan dan memelihara aplikasi web Tunaiku, platform fintech yang menyediakan pinjaman tanpa agunan online.",
+          "Mengimplementasikan fitur baru dan menyelesaikan masalah produksi menggunakan framework Angular.",
+          "Membangun komponen frontend yang dapat digunakan kembali dan dipelihara untuk meningkatkan efisiensi pengembangan.",
+          "Berkolaborasi dengan engineer backend, manajer produk, dan QA engineer dalam lingkungan pengembangan agile.",
+          "Memastikan stabilitas aplikasi dengan menulis kode yang bersih dan teruji dengan baik.",
+          "Membimbing developer frontend junior dan berkontribusi pada knowledge sharing di dalam tim."
+        ]
+      },
+      "3": {
+        "title": "Frontend Engineer",
+        "company": "PT Astra Graphia IT (AGIT)",
+        "period": "Sep 2017 – Nov 2018",
+        "description": [
+          "Berkontribusi pada pengembangan Mytra.id, sebuah platform layanan on-demand untuk pemesanan layanan profesional.",
+          "Membangun antarmuka pengguna yang responsif untuk layanan termasuk MyGuard (personel keamanan) dan MyDriver (sopir pribadi).",
+          "Mengembangkan dan memelihara fitur frontend menggunakan Backbone.js dan jQuery.",
+          "Memastikan pengalaman penggunaan yang konsisten dan ramah pengguna di berbagai perangkat dan ukuran layar.",
+          "Bekerja sama dengan engineer backend dan tim produk untuk mengimplementasikan fitur produk baru."
+        ]
+      },
+      "4": {
+        "title": "Helpdesk Provisioning",
+        "company": "PT Telkom Akses",
+        "period": "Des 2016 – Sep 2017",
+        "description": [
+          "Memantau dan mendukung pesanan instalasi IndiHome baru sebagai bagian dari tim operasional PCC.",
+          "Mengatasi masalah konfigurasi jaringan yang terkait dengan IP, Port, dan VLAN.",
+          "Menghasilkan laporan operasional harian untuk mendukung pemantauan pengiriman layanan.",
+          "Mengembangkan aplikasi web internal menggunakan PHP dan MySQL untuk menyederhanakan pemantauan pesanan instalasi.",
+          "Membangun tools untuk melacak progres instalasi, mengelola laporan, dan memperbarui status pesanan."
+        ]
+      }
+    }
+  },
+  "projects": {
+    "title": "Pengalaman Proyek",
+    "subtitle": "",
+    "launchProject": "Buka Proyek",
+    "items": {
+      "1": {
+        "title": "Sabina by Selly",
+        "description": [
+          "Mengembangkan platform web e-commerce full-stack untuk brand fashion Muslim.",
+          "Membangun fitur pelanggan termasuk katalog produk, keranjang belanja, manajemen pesanan, dan halaman akun pengguna.",
+          "Mengintegrasikan gateway pembayaran Midtrans untuk memungkinkan transaksi online yang aman.",
+          "Mengintegrasikan API Biteship untuk mengotomatiskan perhitungan biaya pengiriman dan manajemen pengiriman.",
+          "Merancang dan mengimplementasikan dashboard admin untuk mengelola produk, pesanan, promosi, dan data pelanggan.",
+          "Mengembangkan komponen UI responsif dan dapat digunakan kembali menggunakan Next.js."
+        ]
+      },
+      "2": {
+        "title": "Medina Invitation",
+        "description": [
+          "Membangun platform web yang memungkinkan pasangan membuat dan membagikan undangan pernikahan digital.",
+          "Mengembangkan halaman undangan responsif yang menampilkan detail acara, informasi tempat, dan jadwal.",
+          "Mengimplementasikan fitur manajemen RSVP untuk melacak kehadiran dan respons tamu.",
+          "Mengembangkan backend API menggunakan Express.js untuk mengelola konten undangan dan data tamu.",
+          "Merancang dan mengelola skema database relasional menggunakan PostgreSQL."
+        ]
+      },
+      "3": {
+        "title": "Vote",
+        "description": [
+          "Mengembangkan aplikasi web untuk mencatat dan memantau hasil pemilu secara real-time.",
+          "Membangun antarmuka pengguna responsif menggunakan Next.js.",
+          "Mengimplementasikan fitur pengiriman hasil yang memungkinkan saksi TPS memasukkan data pemilu.",
+          "Mengembangkan REST API menggunakan Express.js untuk menangani pengiriman hasil dan pengambilan data.",
+          "Merancang dan mengelola penyimpanan data relasional menggunakan PostgreSQL.",
+          "Membangun dashboard pemantauan yang memungkinkan partai politik dan kandidat melacak hasil pemilu di berbagai TPS."
+        ]
+      },
+      "4": {
+        "title": "DriverDay.id",
+        "description": [
+          "Mengembangkan website profil perusahaan untuk layanan rental mobil dan driver.",
+          "Membangun antarmuka pengguna responsif menggunakan Next.js.",
+          "Mengimplementasikan optimasi SEO menggunakan Next.js SSR dan static generation.",
+          "Membuat halaman artikel untuk meningkatkan visibilitas pencarian organik dan meningkatkan traffic website.",
+          "Mengoptimalkan performa halaman dan struktur situs untuk mendukung pengindeksan mesin pencari yang lebih baik."
+        ]
+      },
+      "5": {
+        "title": "Virtuathlon",
+        "description": [
+          "Berkontribusi dalam pengembangan aplikasi mobile untuk berpartisipasi dalam tantangan olahraga virtual.",
+          "Membangun antarmuka pengguna mobile responsif menggunakan React Native.",
+          "Mengimplementasikan fitur untuk mendukung pelacakan aktivitas dan partisipasi tantangan.",
+          "Berkolaborasi dengan tim pengembangan untuk mengintegrasikan antarmuka mobile dengan layanan backend."
+        ]
+      }
+    }
+  },
+  "skills": {
+    "title": "Keahlian",
+    "education": {
+      "title": "Pendidikan",
+      "university": "Universitas Telkom",
+      "degree": "Diploma Teknik Komputer • 2013 - 2016",
+      "badge": "Fail2Ban Notification System using Telegram"
+    }
+  },
+  "contact": {
+    "title": "Kontak",
+    "subtitle": "Mari diskusikan bagaimana kita bisa membangun paradigma baru pengalaman digital bersama. Hubungi melalui saluran utama saya.",
+    "emailMe": "Email",
+    "whatsapp": "WhatsApp",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
