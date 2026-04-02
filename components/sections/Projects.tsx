@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import { Vote, ExternalLink } from 'lucide-react';
 import { useTranslations } from 'next-intl';
+import Image from 'next/image';
 
 const projectConfig = [
   {
@@ -109,11 +110,12 @@ export default function Projects() {
             <div className="relative aspect-video overflow-hidden dark:bg-surface-container bg-gray-100 flex items-center justify-center">
               <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/10 via-transparent to-transparent" />
               {project.image ? (
-                <img
+                <Image
                   src={project.image}
                   alt={t(`items.${project.id}.title`)}
-                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
-                  loading="lazy"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover object-top group-hover:scale-105 transition-transform duration-500"
                 />
               ) : project.icon === 'Vote' ? (
                 <Vote className="w-20 h-20 text-primary/60 dark:text-primary/20 group-hover:scale-110 transition-transform duration-500" />

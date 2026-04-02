@@ -1,9 +1,24 @@
 import type { Metadata } from "next";
 import { getLocale } from "next-intl/server";
+import { Space_Grotesk, Plus_Jakarta_Sans } from "next/font/google";
 import ThemeProvider from "@/components/providers/ThemeProvider";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+
+const spaceGrotesk = Space_Grotesk({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-headline",
+  weight: ["400", "500", "600", "700"],
+});
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-body",
+  weight: ["300", "400", "500", "600", "700"],
+});
 
 export const metadata: Metadata = {
   title: "Ryan Rafilianto — Senior Frontend Engineer",
@@ -18,7 +33,7 @@ export const metadata: Metadata = {
     siteName: "Ryan Rafilianto Portfolio",
     images: [
       {
-        url: "/pp.svg",
+        url: "/pp.png",
         width: 400,
         height: 400,
         alt: "Ryan Rafilianto",
@@ -30,7 +45,7 @@ export const metadata: Metadata = {
     title: "Ryan Rafilianto — Senior Frontend Engineer",
     description:
       "Senior Frontend Engineer with 8+ years of experience building scalable web applications with React, TypeScript, and Next.js.",
-    images: ["/pp.svg"],
+    images: ["/pp.png"],
   },
   keywords: [
     "Ryan Rafilianto",
@@ -52,15 +67,7 @@ export default async function RootLayout({
   const locale = await getLocale();
 
   return (
-    <html lang={locale} suppressHydrationWarning>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang={locale} className={`${spaceGrotesk.variable} ${plusJakartaSans.variable}`} suppressHydrationWarning>
       <body className="font-body antialiased" suppressHydrationWarning>
         <ThemeProvider>{children}</ThemeProvider>
         <SpeedInsights />
@@ -69,3 +76,4 @@ export default async function RootLayout({
     </html>
   );
 }
+
