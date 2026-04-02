@@ -14,7 +14,7 @@
     "contactMe": "Contact Me"
   },
   "about": {
-    "label": "Discovery",
+    "label": "About",
     "text": "Frontend Engineer with <highlight>8+ years of experience</highlight> building scalable web applications using React, TypeScript, and modern frameworks such as Next.js and Angular. Experienced in developing products across fintech, logistics, and e-commerce, including SaaS platforms, internal dashboards, and full-featured e-commerce systems. Passionate about building high-performance user interfaces and delivering maintainable, scalable frontend architecture."
   },
   "experience": {
@@ -120,6 +120,16 @@
         ]
       },
       "5": {
+        "title": "SruwalApparel.id",
+        "description": [
+          "Developed a company profile website for a clothing brand.",
+          "Built responsive user interfaces using Next.js.",
+          "Implemented SEO optimization using Next.js SSR and static generation.",
+          "Created article pages to improve organic search visibility and increase website traffic.",
+          "Optimized page performance and site structure to support better search engine indexing."
+        ]
+      },
+      "6": {
         "title": "Virtuathlon",
         "description": [
           "Contributed to the development of a mobile application for participating in virtual sports challenges.",
@@ -141,7 +151,7 @@
   },
   "contact": {
     "title": "Contact",
-    "subtitle": "Let's discuss how we can build the next paradigm of digital experiences together. Reach out via my primary channels.",
+    "subtitle": "I'm always open to new opportunities and collaborations. Feel free to reach out through any of these channels!",
     "emailMe": "Email",
     "whatsapp": "WhatsApp",
     "linkedin": "LinkedIn",

@@ -14,7 +14,7 @@
     "contactMe": "Hubungi Saya"
   },
   "about": {
-    "label": "Discovery",
+    "label": "Tentang Saya",
     "text": "Frontend Engineer dengan <highlight>pengalaman 8+ tahun</highlight> membangun aplikasi web yang scalable menggunakan React, TypeScript, dan framework modern seperti Next.js dan Angular. Berpengalaman mengembangkan produk di bidang fintech, logistik, dan e-commerce, termasuk platform SaaS, dashboard internal, dan sistem e-commerce lengkap. Bersemangat membangun antarmuka pengguna berkinerja tinggi dan menghadirkan arsitektur frontend yang maintainable dan scalable."
   },
   "experience": {
@@ -120,6 +120,16 @@
         ]
       },
       "5": {
+        "title": "SruwalApparel.id",
+        "description": [
+          "Mengembangkan website profil perusahaan untuk brand pakaian.",
+          "Membangun antarmuka pengguna responsif menggunakan Next.js.",
+          "Mengimplementasikan optimasi SEO menggunakan Next.js SSR dan static generation.",
+          "Membuat halaman artikel untuk meningkatkan visibilitas pencarian organik dan meningkatkan traffic website.",
+          "Mengoptimalkan performa halaman dan struktur situs untuk mendukung pengindeksan mesin pencari yang lebih baik."
+        ]
+      },
+      "6": {
         "title": "Virtuathlon",
         "description": [
           "Berkontribusi dalam pengembangan aplikasi mobile untuk berpartisipasi dalam tantangan olahraga virtual.",
@@ -141,7 +151,7 @@
   },
   "contact": {
     "title": "Kontak",
-    "subtitle": "Mari diskusikan bagaimana kita bisa membangun paradigma baru pengalaman digital bersama. Hubungi melalui saluran utama saya.",
+    "subtitle": "Saya selalu terbuka untuk peluang dan kolaborasi baru. Jangan ragu untuk menghubungi melalui salah satu saluran berikut!",
     "emailMe": "Email",
     "whatsapp": "WhatsApp",
     "linkedin": "LinkedIn",

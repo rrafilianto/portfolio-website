@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Globe, Code, Smartphone, GraduationCap, Award } from "lucide-react";
+import { Globe, Code, Smartphone, Server, Database } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { skillCategories } from "@/data/skills";
 
@@ -9,6 +9,8 @@ const iconMap: Record<string, React.ReactNode> = {
   Globe: <Globe className="w-10 h-10" />,
   Code: <Code className="w-10 h-10" />,
   Smartphone: <Smartphone className="w-10 h-10" />,
+  Server: <Server className="w-10 h-10" />,
+  Database: <Database className="w-10 h-10" />,
 };
 
 const colorMap = {
@@ -42,7 +44,7 @@ export default function Skills() {
       </motion.h2>
 
       {/* Skill Categories Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {skillCategories.map((category, index) => (
           <motion.div
             key={category.id}

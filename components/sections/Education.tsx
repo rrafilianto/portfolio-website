@@ -35,10 +35,6 @@ export default function Education() {
           </div>
           
           <div className="text-center md:text-left flex-1 z-10">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold tracking-wider uppercase mb-4">
-              <Award className="w-4 h-4" />
-              <span>{t("title")}</span>
-            </div>
             <h4 className="font-headline text-3xl md:text-4xl font-bold dark:text-white text-gray-900 mb-2">
               {t("university")}
             </h4>

@@ -12,10 +12,10 @@ const experienceConfig: { id: string; side: "left" | "right"; color: "primary" |
 ];
 
 const companyLogos: Record<string, string | null> = {
-  "1": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Sicepat_Ekspres.png/640px-Sicepat_Ekspres.png",
-  "2": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Amar_Bank_Logo_2021.svg/512px-Amar_Bank_Logo_2021.svg.png",
-  "3": "https://www.astragraphia.co.id/themes/astragrapia_new/images/logo-astra-graphia.png",
-  "4": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Telkom_Akses.svg/512px-Telkom_Akses.svg.png",
+  "1": "/images/companies/sicepat.jpeg",
+  "2": "/images/companies/amarbank.jpeg",
+  "3": "/images/companies/agit.png",
+  "4": "/images/companies/telkomakses.png",
 };
 
 export default function Experience() {

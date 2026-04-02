@@ -40,9 +40,29 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     id: 3,
+    title: "Backend",
+    icon: "Server",
+    color: "tertiary",
+    skills: [
+      { name: "Express.js", icon: "https://cdn.simpleicons.org/express", invertDark: true },
+      { name: "Supabase", icon: "https://cdn.simpleicons.org/supabase" },
+    ],
+  },
+  {
+    id: 4,
+    title: "Database",
+    icon: "Database",
+    color: "secondary",
+    skills: [
+      { name: "PostgreSQL", icon: "https://cdn.simpleicons.org/postgresql" },
+      { name: "MySQL", icon: "https://cdn.simpleicons.org/mysql" },
+    ],
+  },
+  {
+    id: 5,
     title: "Mobile",
     icon: "Smartphone",
-    color: "tertiary",
+    color: "primary",
     skills: [
       { name: "React Native", icon: "https://cdn.simpleicons.org/react" },
     ],
