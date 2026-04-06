@@ -71,12 +71,10 @@ export default function Hero() {
         className="flex flex-wrap justify-center gap-6"
       >
         <a
-          href="https://drive.google.com/file/d/1EXX0Qs4_NSOUGM-UrLhFLMtgETKWSsQP/view?usp=drive_link"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="#experience"
           className="px-8 py-4 bg-gradient-to-r from-violet-400 to-violet-600 dark:from-primary dark:to-primary-dim dark:text-on-primary text-white font-bold rounded-xl hover:shadow-[0_8px_25px_rgba(124,58,237,0.3)] dark:hover:shadow-[0_0_25px_rgba(186,158,255,0.4)] transition-all transform active:scale-95"
         >
-          {t('downloadCV')}
+          {t('viewExperience')}
         </a>
         <a
           href="#contact"
